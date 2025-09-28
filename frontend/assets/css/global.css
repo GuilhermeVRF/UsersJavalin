@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 50%;
+}
+
+.card-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.button-group{
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+    width: 100%;
+}
